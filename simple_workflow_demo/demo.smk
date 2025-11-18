@@ -1,3 +1,5 @@
+# Code adapted from: https://github.com/harvardinformatics/snakemake-workshop/tree/main
+
 with open("complete/demo-sample-sheet.txt") as samples_in:
     samples = [line.strip() for line in samples_in]
 
